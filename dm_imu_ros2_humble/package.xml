@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dm_imu</name>
+  <version>0.0.1</version>
+  <description>IMU driver package for ROS 2</description>
+
+  <maintainer email="dm@todo.todo">dm</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>serial</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
